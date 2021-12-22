@@ -1,0 +1,65 @@
+.form-div{
+    width:90%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+    height:280px;
+    padding:50px;
+}
+.card{
+    height:380px;
+    width:300px;
+    background-color: rgb(246, 248, 248);
+    display: inline-block;
+    box-shadow: 1px 1px 3px rgb(221, 23, 23);
+}
+#cost{
+    font-size: 60px;
+    font-weight: 700;
+}
+img{
+    width:100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.row{
+margin-right: 31px;
+margin-left: 33px;
+}
+.item_box{
+    display: inline-block;
+    margin:50px;
+    box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+}
+
+/* MEDIA QUERIES*/
+@media (max-width:768px){
+    .form-div{
+        width:85%;
+    }
+    .form-control{
+        margin-left:-44px;
+        width:120%;
+    }
+    .form-div{
+        height:430px;
+    }
+    .card{
+        margin-top: 34px;
+    }
+    .item_box{
+        width:80%;
+        margin: 35px;
+    }
+}
+
+@media (max-width:400px){
+    .form-control{
+        margin-left:4px;
+        width:149%;
+    }
+    .control-mb{
+        margin-left:-40px;
+    }
+}

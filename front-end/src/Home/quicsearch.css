@@ -1,0 +1,12 @@
+.deliveryimage{
+    height:450px;
+    width:60%;
+    border-radius: 50px;
+}
+
+@media (max-width:768px){
+    .deliveryimage{
+        height:200px;
+        width:80%;
+    }
+}
