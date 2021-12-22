@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#header{
+    height:70px;
+    background-color: #302f2f;
+    display: flex;
+    justify-content: space-between;
+}
+.umato{
+    color:#d0d3d9;
+}
+#logo_main{
+    height:70px;
+    width:70px;
+    background-color: rgb(214, 231, 214);
+    border-radius: 50%;
+    margin-left: 5%;
+}
+#heading{
+    font-size: 50px;
+    text-shadow: 4px 4px 2px gray;
+}
+#social{
+    height:70px;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+#login{
+    font-size: 20px;
+    padding:10px 30px;
+    border:1px solid #fff;
+    margin-right: 20px;
+    color:#fff;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#createaccount{
+    font-size: 20px;
+    padding:10px;
+    border:1px solid #fff;
+    color:#fff;
+}
+
+.filters-section{
+    height:400px;
+    margin-top: 40px;
+    padding:10px;
+    display: inline;
+}
+.rest-display-section{
+    height:350px;
+    margin-top: 40px;
+}
+
+
+
+#content{
+    width:100%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -1%;
+
+}
+.list_content{
+    width:100%;
+    height:340px;
+    margin-top: -54%;
+    margin-left: 20%;
+    /*box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);*/
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.text {
+    margin-left:10%;
+    color:rgb(16, 16, 66);
+}
+
+.fort , .graytext , .rate , .menu_cuisines{
+    font-weight: bold;
+    color:rgb(182, 48, 48);   
+}
+
+.fort , .graytext {
+    line-height: 36px;
+}
+.cost_text{
+    font-size: 20px;
+}
+
+.image_display{
+    height:120px;
+    width:120px;
+    border-radius:20%;
+    padding:10px;
+    margin-left:5%;
+    margin-top:3%;
+}
+.name_address{
+    display: inline-block;
+    margin-top:2%;
+    position: absolute;
+    margin-left: 2%;
+    width: 45%;
+    color:rgb(197, 140, 140);
+}
+.images{
+    display:inline;
+}
+hr{
+    width:100%;
+}
+.menu_cuisines{
+    display:inline-block;
+    margin-left:7%;
+}
+.rate{
+    display: inline-block;
+    margin-left:3%;
+    margin-top: -11px;
+}
+
+.rest_name{
+    color:rgb(58, 58, 148);
+}
+.cusine_span{
+    letter-spacing: 2px;
+    margin-bottom: -30px;
+}
+.nodata{
+    position: absolute;
+    top:50%;
+    left:30%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    padding: 40px;
+}
+
+@media (min-width:990px) and (max-width:1200px){
+    .graytext{
+        color:red;
+        width: 310px;
+    }
+    .list_content{
+        height:265px;
+    }
+}
+@media (min-width:768px) and (max-width:990px){
+    .filters-section{
+        height:300px;
+    }
+}
+
+@media (max-width:768px){
+    .fl{
+        display: inline-block;
+        margin:0 20px;
+    }
+    label{
+        margin:10px;
+    }
+    .fort , .graytext {
+        line-height: 20px;
+    }
+}
+
+@media (max-width:560px){
+    #heading{
+        font-size:52px;
+    }
+    #createaccount {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    #login{
+        font-size: 12px;
+        padding:8px 15px;
+    }
+    .list_content{
+        margin-top: -9%;
+        height:300px;
+    }
+    .rate{
+        margin-top: -20%;
+        margin-left: 51%;
+    }
+    .cost-div-mrgin{
+        margin-left: -27px;
+        width: 132%;
+    }
+}
+
+
+@media (max-width:400px){
+    .fl{
+        margin:0;
+    }
+    label{
+        margin:9px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .filters-section{
+        height:150px;
+        width:100%;
+    }
+    .rest_name{
+        font-size: 20px;
+    }
+    .graytext{
+        font-weight: 500;
+        font-size: small;
+    }
+    .list_content{
+        margin-left: -50px;
+        height: 320px;
+        width: 133%;
+    }
+    .rate{
+        font-size: 15px;
+    }
+}

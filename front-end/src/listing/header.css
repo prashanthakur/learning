@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#header{
+    height:75px;
+    /*background-color: #302f2f;*/
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.umato{
+    color:#d0d3d9;
+}
+#logo_main{
+    height:70px;
+    width:70px;
+    background-color: rgb(214, 231, 214);
+    border-radius: 50%;
+    margin-left: 5%;
+}
+#heading{
+    font-size: 50px;
+    text-shadow: 4px 4px 2px gray;
+}
+#social{
+    height:70px;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+#login{
+    font-size: 15px;
+    padding:10px 30px;
+    margin-right: 20px;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#createaccount{
+    font-size: 15px;
+    padding:10px;
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+
+@media (max-width:560px){
+    #heading{
+        font-size:52px;
+    }
+    #createaccount {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    #login{
+        font-size: 12px;
+        padding:8px 15px;
+    }
+    .umato{
+        display: none;
+    }
+    .modal-box{
+        width: 250px;
+    }
+    .form-control{
+        margin-left: -7px;
+    }
+}
+

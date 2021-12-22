@@ -1,0 +1,42 @@
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 5% 10% 10% 35%;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 12px 12px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.stream_line{
+    text-align: center;
+    height: 20px;
+    width:100%;
+    background-color: rgb(10, 77, 32);
+    color:#fff;
+}
