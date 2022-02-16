@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors())
 
 //const mongourl = "mongodb://localhost:27017"
-const mongourl = "mongodb+srv://thakurgmail_com:1239910@cluster0.z32tm.mongodb.net/Edu_August?retryWrites=true&w=majority";
+const mongourl = "mongodb+srv://username:password@cluster0.z32tm.mongodb.net/Edu_August?retryWrites=true&w=majority";
 var db;
 //get
 app.get('/',(req,res) => {
